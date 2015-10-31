@@ -11,7 +11,7 @@ var controller = app.controller('graphCtrl', graphController);
 
 function graphController($scope) {
     var data = google.visualization.arrayToDataTable([
-      ['Element', 'Density (nm)'],
+      ['Color', 'Wavelength (nm)'],
       ['Violet', 450],
       ['Blue', 495],
       ['Green', 570],
